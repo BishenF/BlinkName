@@ -1,0 +1,246 @@
+int led = D7;
+
+void setup() {
+
+  pinMode(led, OUTPUT);
+
+}
+    
+  //My name is Bishen Fernando, I will be using the void loop to blink the spellings of my name in morse code.
+
+void loop() {
+  
+  // My first name...
+  
+  // B
+  
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // I
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // S
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // H
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // E
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // N
+  
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(3600);
+  
+  // My last name...
+  
+  // F
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // E
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // R
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // N
+  
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // A
+  
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // N
+  
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // D
+  
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(800);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // O
+  
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  digitalWrite(led, HIGH);
+  delay(2400);
+  digitalWrite(led, LOW);
+  delay(600);
+  
+  digitalWrite(led, LOW);
+  delay(1000);
+  
+  // And repeat!
+}
